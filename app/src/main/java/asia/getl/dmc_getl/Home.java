@@ -80,7 +80,7 @@ public class Home extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.menu_driver_add) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
 
