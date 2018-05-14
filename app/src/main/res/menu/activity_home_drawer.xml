@@ -7,7 +7,7 @@
         <item
             android:id="@+id/menu_driver_add"
             android:icon="@drawable/ic_person_add_black_24dp"
-            android:title="Import" />
+            android:title="Add New Driver" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
