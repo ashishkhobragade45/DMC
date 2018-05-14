@@ -14,7 +14,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="10dp">
 
             <EditText
                 android:id="@+id/edtdlno"
@@ -26,85 +27,128 @@
                 android:id="@+id/edtdlpassportno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL Passport No." />
+                android:hint="Enter Passport No." />
 
             <EditText
                 android:id="@+id/edtdlname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL Name" />
+                android:hint="Enter Name" />
 
             <EditText
                 android:id="@+id/edtdlmobno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL Contact No." />
+                android:hint="Enter Contact No."
+                android:labelFor="@+id/edtdlno"
+                android:inputType="phone"/>
 
             <EditText
                 android:id="@+id/edtaddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL Address"/>
+                android:hint="Enter Address" />
 
             <EditText
                 android:id="@+id/edtdob"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL" />
+                android:hint="Enter Driver D.O.B."
+                android:inputType="date"/>
 
             <EditText
-                android:id="@+id/dlno"
+                android:id="@+id/edtdlvalidity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL No." />
+                android:hint="Enter DL Validity."
+                android:inputType="date"/>
 
             <EditText
-                android:id="@+id/dlno"
+                android:id="@+id/edtdlfamily"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL No." />
+                android:hint="Enter Driver Family member name" />
 
             <EditText
-                android:id="@+id/dlno"
+                android:id="@+id/edtdrivingsince"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL No." />
+                android:hint="Enter Driving Since"
+                android:inputType="date"/>
 
             <EditText
-                android:id="@+id/dlno"
+                android:id="@+id/edtdrivingus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL No." />
+                android:hint="Enter Driving for company Since"
+                android:inputType="date"/>
 
             <EditText
-                android:id="@+id/dlno"
+                android:id="@+id/edtcompany"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL No." />
+                android:hint="Enter Company" />
 
             <EditText
-                android:id="@+id/dlno"
+                android:id="@+id/edtaltercontact"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL No." />
+                android:hint="Enter Emergency Contact No."
+                android:inputType="phone"/>
 
             <EditText
-                android:id="@+id/dlno"
+                android:id="@+id/edtvehicalno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL No." />
+                android:hint="Enter Vehical Reg. No." />
 
             <EditText
-                android:id="@+id/dlno"
+                android:id="@+id/edtvehicaltype"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL No." />
+                android:hint="Enter Vehicle Type " />
 
             <EditText
-                android:id="@+id/dlno"
+                android:id="@+id/edtvehicalmodel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL No." />
+                android:hint="Enter Vehicle Model" />
+
+            <EditText
+                android:id="@+id/edttransporter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Vehicle Transporter" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnsubmit"
+                    android:padding="05dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Submit" />
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/btncancle"
+                    android:padding="05dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel" />
+            </LinearLayout>
 
 
         </LinearLayout>
