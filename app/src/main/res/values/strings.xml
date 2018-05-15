@@ -7,4 +7,44 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <string name="Select_Company">Select Company</string>
+    <string-array name="company_name">
+        <item>ABROAD</item>
+        <item>ACC</item>
+        <item>ACC-BANGALORE</item>
+        <item>AMBERNATH</item>
+        <item>AMBUJA</item>
+        <item>BAFNA MOTORS</item>
+        <item>BALAJI</item>
+        <item>BHARAT GAS</item>
+        <item>BHAUCHA DHAKKA</item>
+        <item>BMC</item>
+        <item>CEMENT GODOWN</item>
+        <item>COTTON GREEN</item>
+        <item>CROMPTON</item>
+        <item>DMC-AMBERNATH</item>
+        <item>ESPAT</item>
+        <item>FORTUNER</item>
+        <item>GODI</item>
+        <item>GULF</item>
+        <item>J KUMAR</item>
+        <item>JNPT</item>
+        <item>JSW</item>
+        <item>KALYAN DHAKKA</item>
+        <item>KALYAN MSCB</item>
+        <item>KDMT</item>
+        <item>L and T</item>
+        <item>LUXURY COACH</item>
+        <item>MAHALUXMI TPT</item>
+        <item>MSRTC</item>
+        <item>NA</item>
+        <item>PRIVATE</item>
+        <item>ULTRATECH</item>
+        <item>VASHI MARKET</item>
+        <item>VIJYA and CO; MULUND</item>
+        <item>WADI BUNDER</item>
+
+    </string-array>
+    
 </resources>

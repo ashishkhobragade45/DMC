@@ -21,19 +21,22 @@
                 android:id="@+id/edtdlno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter DL No." />
+                android:hint="Enter DL No."
+                android:maxLength="15"/>
 
             <EditText
                 android:id="@+id/edtdlpassportno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Passport No." />
+                android:hint="Enter Passport No."
+                android:maxLength="15"/>
 
             <EditText
                 android:id="@+id/edtdlname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Name" />
+                android:hint="Enter Name"
+                android:maxLength="25"/>
 
             <EditText
                 android:id="@+id/edtdlmobno"
@@ -41,7 +44,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Enter Contact No."
                 android:labelFor="@+id/edtdlno"
-                android:inputType="phone"/>
+                android:inputType="phone"
+                android:maxLength="10"/>
 
             <EditText
                 android:id="@+id/edtaddress"
@@ -54,7 +58,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Driver D.O.B."
-                android:inputType="date"/>
+                android:clickable="true"
+                android:editable="false"
+                android:inputType="none"
+                />
 
             <EditText
                 android:id="@+id/edtdlvalidity"
@@ -83,18 +90,39 @@
                 android:hint="Enter Driving for company Since"
                 android:inputType="date"/>
 
-            <EditText
+          <!--  <EditText
                 android:id="@+id/edtcompany"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Company" />
+                android:hint="Enter Company" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="Select Company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"/>
+
+                <Spinner
+                    android:id="@+id/spcompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </LinearLayout>
+
+
 
             <EditText
                 android:id="@+id/edtaltercontact"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Emergency Contact No."
-                android:inputType="phone"/>
+                android:inputType="phone"
+                android:maxLength="10"/>
 
             <EditText
                 android:id="@+id/edtvehicalno"
